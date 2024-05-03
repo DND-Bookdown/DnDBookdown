@@ -1,62 +1,82 @@
-# Introduction {#intro}
+**Beast Template**                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                       
+\documentclass[10pt]{book}                                                                                                                                                                                                             
+                                                                                                                                                                                                                                       
+\usepackage{amsmath}                                                                                                                                                                                                                   
+\usepackage{amsfonts}                                                                                                                                                                                                                  
+\usepackage{latexsym}                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                       
+\title{\Large Beast Template (D&D 5.0)}                                                                                                                                                                                                
+                                                                                                                                                                                                                                       
+\begin{document}                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                       
+\chapter*{Beast Template}                                                                                                                                                                                                              
+                                                                                                                                                                                                                                       
+This template is designed to help you create a beast for Dungeons & Dragons 5th Edition using LaTeX and Bookdown.                                                                                                                      
+                                                                                                                                                                                                                                       
+**Beast Statistics**                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                       
+| Statistic | Value |                                                                                                                                                                                                                  
+| --- | --- |                                                                                                                                                                                                                          
+| Armor Class | \textit{\small (insert armor class here)} |                                                                                                                                                                            
+| Hit Points | \textit{\small (insert hit points here)} |                                                                                                                                                                              
+| Speed | \textit{\small (insert speed here)} |                                                                                                                                                                                        
+                                                                                                                                                                                                                                       
+\section*{Abilities}                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                       
+\begin{itemize}                                                                                                                                                                                                                        
+\item
+        Ability 1: \textit{\small (insert ability 1 name and description here)}
+        \begin{adjustwidth}{-2em}
+        Ability Score: \textit{\small (insert ability score here)}
+        \end{adjustwidth}
+\item
+        Ability 2: \textit{\small (insert ability 2 name and description here)}
+        \begin{adjustwidth}{-2em}
+        Ability Score: \textit{\small (insert ability score here)}
+        \end{adjustwidth}
+\item
+        Ability 3: \textit{\small (insert ability 3 name and description here)}
+        \begin{adjustwidth}{-2em}
+        Ability Score: \textit{\small (insert ability score here)}
+        \end{adjustwidth}
+\end{itemize}
 
----
-title: "Introduction to the DAO Canvas"
-author: "Christiaan Verhoef & Bernhard van der Disen"
-date: "`r Sys.Date()`"
-output: bookdown::html_document2
----
+\section*{Attacks and Traits}
 
-# Introduction to the DAO Canvas {#intro}
+\begin{itemize}
+\item
+        Attack 1: \textit{\small (insert attack 1 name and description here)}
+        \begin{adjustwidth}{-2em}
+        ATK: \textit{\small (insert ATK value here)}
+        Damage: \textit{\small (insert damage value here)}
+        \end{adjustwidth}
+\item
+        Attack 2: \textit{\small (insert attack 2 name and description here)}
+        \begin{adjustwidth}{-2em}
+        ATK: \textit{\small (insert ATK value here)}
+        Damage: \textit{\small (insert damage value here)}
+        \end{adjustwidth}
+        \dots
+\end{itemize}
 
-This document introduces the DAO Canvas, a strategic framework designed for planning and managing decentralized autonomous organizations (DAOs). The canvas covers five key elements: Purpose, Community, Mechanics, Incentives, and Tools.
+\section*{Lair and Environment}
 
-## Purpose
-```{r purpose, echo=FALSE}
-cat("
-- **Mission**: Define the core mission of the DAO. Consider what primary objectives and immediate goals the DAO aims to achieve. Ask yourself: What problem is the DAO trying to solve? Who benefits from the DAO's success?
+\begin{itemize}
+\item
+        Lair Type: \textit{\small (insert lair type here, e.g. cave, ruin, etc.)}
+        Environment: \textit{\small (insert environment description here)}
+\end{itemize}
 
-  Example: The mission of our DAO, 'Decentralize Art,' is to empower artists globally by creating a decentralized platform that facilitates peer-to-peer sales without intermediaries, ensuring artists receive fair compensation for their work.
+**Beast Description**
 
-- **Vision**: Outline the long-term vision and impact. Think about where you see the DAO in the future once it has successfully implemented its strategies and achieved its initial goals. How does the DAO contribute to broader societal, technological, or economic changes?
+Insert a brief description of the beast, including its habits, habitat, and any notable features or behaviors.
 
-  Example: The vision of 'Decentralize Art' is to redefine the global art market, making it universally accessible and significantly more equitable. Our aim is to see a world where artistic creation and appreciation are seamlessly integrated into daily life, enabled by blockchain technology, enhancing cultural diversity and inclusivity.
-")
+\end{document}
 
+This template provides basic structure for your beast, with sections for:
 
-cat("
-- **Roles**: Describe the roles within the DAO and responsibilities.
-- **Interaction**: Detail how members will interact.
-")
-
-cat("
-- **Roles**: Describe the roles within the DAO and responsibilities.
-- **Interaction**: Detail how members will interact.
-")
-
-cat("
-- **Roles**: Describe the roles within the DAO and responsibilities.
-- **Interaction**: Detail how members will interact.
-")
-
-cat("
-- **Infrastructure**: List the technologies and platforms used.
-- **Adaptability**: Describe how these tools meet the DAO's needs.
-")
-
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+* Beast statistics (armor class, hit points, speed)
+* Abilities
+* Attacks and traits
+* Lair and environment
