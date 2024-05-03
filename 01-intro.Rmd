@@ -1,82 +1,26 @@
-**Beast Template**                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                       
-\documentclass[10pt]{book}                                                                                                                                                                                                             
-                                                                                                                                                                                                                                       
-\usepackage{amsmath}                                                                                                                                                                                                                   
-\usepackage{amsfonts}                                                                                                                                                                                                                  
-\usepackage{latexsym}                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                       
-\title{\Large Beast Template (D&D 5.0)}                                                                                                                                                                                                
-                                                                                                                                                                                                                                       
-\begin{document}                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                       
-\chapter*{Beast Template}                                                                                                                                                                                                              
-                                                                                                                                                                                                                                       
-This template is designed to help you create a beast for Dungeons & Dragons 5th Edition using LaTeX and Bookdown.                                                                                                                      
-                                                                                                                                                                                                                                       
-**Beast Statistics**                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                       
-| Statistic | Value |                                                                                                                                                                                                                  
-| --- | --- |                                                                                                                                                                                                                          
-| Armor Class | \textit{\small (insert armor class here)} |                                                                                                                                                                            
-| Hit Points | \textit{\small (insert hit points here)} |                                                                                                                                                                              
-| Speed | \textit{\small (insert speed here)} |                                                                                                                                                                                        
-                                                                                                                                                                                                                                       
-\section*{Abilities}                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                       
-\begin{itemize}                                                                                                                                                                                                                        
-\item
-        Ability 1: \textit{\small (insert ability 1 name and description here)}
-        \begin{adjustwidth}{-2em}
-        Ability Score: \textit{\small (insert ability score here)}
-        \end{adjustwidth}
-\item
-        Ability 2: \textit{\small (insert ability 2 name and description here)}
-        \begin{adjustwidth}{-2em}
-        Ability Score: \textit{\small (insert ability score here)}
-        \end{adjustwidth}
-\item
-        Ability 3: \textit{\small (insert ability 3 name and description here)}
-        \begin{adjustwidth}{-2em}
-        Ability Score: \textit{\small (insert ability score here)}
-        \end{adjustwidth}
-\end{itemize}
+```
+title: "Wolf Monster Template"
+output: bookdown::pdf_book
 
-\section*{Attacks and Traits}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-\begin{itemize}
-\item
-        Attack 1: \textit{\small (insert attack 1 name and description here)}
-        \begin{adjustwidth}{-2em}
-        ATK: \textit{\small (insert ATK value here)}
-        Damage: \textit{\small (insert damage value here)}
-        \end{adjustwidth}
-\item
-        Attack 2: \textit{\small (insert attack 2 name and description here)}
-        \begin{adjustwidth}{-2em}
-        ATK: \textit{\small (insert ATK value here)}
-        Damage: \textit{\small (insert damage value here)}
-        \end{adjustwidth}
-        \dots
-\end{itemize}
+```{bookdown-chunk wolf-template}
+**Name**: Wolf
+**Type**: Beast
+**Size**: Medium beast
+**Armor Class**: 13 (natural armor)
+**Hit Points**: 5 (1d6 + 2)
 
-\section*{Lair and Environment}
+**Speed**: 40 ft.
 
-\begin{itemize}
-\item
-        Lair Type: \textit{\small (insert lair type here, e.g. cave, ruin, etc.)}
-        Environment: \textit{\small (insert environment description here)}
-\end{itemize}
+**STR**: 16 (+3) DEX: 14 (+2) CON: 15 (+2) INT: 2 (-4) WIS: 12 (+1) CHA: 10 (+0)
 
-**Beast Description**
+**Attack**: Bite +5 (1d8 + 2 piercing damage)
+**Damage**: 1d6 + 2 piercing damage
+**Traits**:
+        + Keen Hearing: The wolf has advantage on Wisdom (Perception) checks that rely on hearing.
+        + Darkvision: The wolf can see in dim light within 60 ft. of it as if it were bright light, a
+and in darkness as a dim light.
 
-Insert a brief description of the beast, including its habits, habitat, and any notable features or behaviors.
-
-\end{document}
-
-This template provides basic structure for your beast, with sections for:
-
-* Beast statistics (armor class, hit points, speed)
-* Abilities
-* Attacks and traits
-* Lair and environment
