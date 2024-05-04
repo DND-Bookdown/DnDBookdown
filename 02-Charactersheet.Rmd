@@ -1,0 +1,46 @@
+# Character Sheet
+
+Character Sheet
+================
+
+Name: Eira Shadowglow
+Race: Half-Elf
+Class: Druid Level: 1
+
+Abilities:
+
+* Strength: 8 (-1)
+* Dexterity: 12 (+1)
+* Constitution: 10 (+0)
+* Intelligence: 14 (+2)
+* Wisdom: 16 (+3)
+* Charisma: 10 (+0)
+
+Skills:
+
+* Survival: +2
+* Nature: +2
+* Perception: +2
+
+Equipment:
+
+* Quarterstaff (as a focus for spells)
+* Leather armor
+* Backpack (containing a bedroll, 10 days of rations, and a waterskin)
+* Spell component pouch
+
+Spells:
+
+* Cantrips: Mage Hand, Prestidigitation
+* 1st Level Spells: Bless, Cure Wounds, Detect Magic, Healing Word, Plant Growth, Purify Food and Drink, Rite of Chipperance
+
+Features & Traits:
+
+* Druidic Focus: Eira has a quarterstaff that serves as a focus for her spells.
+* Wild Shape: Eira can use her Druid level to transform into a Small or Medium beast, such as a deer, wolf, or owl.
+* Spellcasting: Eira can cast the spells she knows using her Druid level.
+* Favored Enemy (Beasts): Eira gains a bonus when making attacks against creatures that are beasts.
+* Favored Territory (Forest): Eira gains a bonus when she is in a forest environment.
+
+Backstory:
+Eira was born to an elven mother and a human father in a small village on the edge of a vast forest. From a young age, she showed a deep connection with nature and the creatures that lived within it. As she grew older, Eira discovered her affinity for magic and decided to pursue a life as a druid, using her powers to protect and preserve the natural world. She has been traveling the land, learning new spells and gaining experience in the wilderness, all while keeping a watchful eye on those who would harm the environment

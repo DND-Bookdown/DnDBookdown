@@ -1,11 +1,10 @@
-fig:nice-fig
-tab:nice-tab
 prerequisites
 intro
-literature
+character-sheet
 methods
 math-example
 applications
 example-one
 example-two
 final-words
+character-sheet-1
