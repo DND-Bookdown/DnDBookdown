@@ -7,4 +7,3 @@ applications
 example-one
 example-two
 final-words
-character-sheet-1
