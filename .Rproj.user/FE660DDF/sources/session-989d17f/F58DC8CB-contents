@@ -1,0 +1,24 @@
+```{r}
+# Define the monster template
+template <- list(
+  name = "Name",
+  type = "Type",
+  ac = "Armor Class",
+  hp = "Hit Points",
+  attack = "Attack Bonus"
+)
+
+# Generate prompts for each field in the template
+prompts <- list(
+  name = "What is the name of this monster?",
+  type = "What type of monster is this (e.g. dragon, undead, beast)?",
+  ac = "What is the Armor Class of this monster?",
+  hp = "How many hit points does this monster have?",
+  attack = "What is the attack bonus of this monster?"
+)
+
+render_prompts <- function() {
+  markdown(prompts, template = template)
+}
+output <- render_prompts()
+

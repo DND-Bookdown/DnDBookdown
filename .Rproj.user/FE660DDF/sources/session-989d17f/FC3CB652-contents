@@ -1,0 +1,2 @@
+install.packages(c('bookdown', 'rmarkdown', 'latexmk', 'minted'))
+
