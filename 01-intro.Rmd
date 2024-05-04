@@ -1,0 +1,23 @@
+# Introduction {#intro}
+
+
+**Name**: Ambusher Spider
+**Type**: Beast
+**Size**: Medium
+**Alignment**: Neutral Evil
+**Armor Class**: 18 (natural armor)
+**Hit Points**: 25 (5d8 + 10)
+**Speed**: 40 ft., climb 30 ft.
+**STR**: 4 (-3) **DEX**: 16 (+3) **CON**: 15 (+2) **INT**: 6 (-2) **WIS**: 14 (+2) **CHA**: 6 (-2)
+**Damage Immunities**: poison
+**Condition Immunities**: charmed, frightened, paralyzed
+**Senses**: darkvision 60 ft., passive Perception 16
+**Languages**: Undercommon
+**Challenge**: 1/2 (50 XP)
+
+**Unique Ability:** **Camouflage Mastery**
+As a bonus action, the Ambusher Spider can blend into its surroundings, becoming nearly invisible. The spider has advantage on all Intelligence, Wisdom, and Charisma saving throws against creatures that are unaware of its 
+presence.
+This ability is inspired by the real-life behavior of some spider species that have excellent camouflage abilities, allowing them to hide from predators or sneak up on prey.
+
+
